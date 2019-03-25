@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045864042244BC5D002D8F1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864032244BC5D002D8F1B /* AppDelegate.m */; };
+		0458640A2244BC5D002D8F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045864082244BC5D002D8F1B /* Main.storyboard */; };
+		0458640C2244BC5E002D8F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0458640B2244BC5E002D8F1B /* Assets.xcassets */; };
+		0458640F2244BC5E002D8F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458640D2244BC5E002D8F1B /* LaunchScreen.storyboard */; };
+		045864122244BC5E002D8F1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864112244BC5E002D8F1B /* main.m */; };
+		0458641C2244BC5E002D8F1B /* DSYTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458641B2244BC5E002D8F1B /* DSYTabbarTests.m */; };
+		045864272244BC5E002D8F1B /* DSYTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864262244BC5E002D8F1B /* DSYTabbarUITests.m */; };
+		045864362244C876002D8F1B /* DSYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864352244C876002D8F1B /* DSYTabBarController.m */; };
+		0458643A2244CA97002D8F1B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864382244CA97002D8F1B /* HomeViewController.m */; };
+		0458643B2244CA97002D8F1B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045864392244CA97002D8F1B /* HomeViewController.xib */; };
+		045864412244CAE3002D8F1B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458643F2244CAE3002D8F1B /* MyViewController.m */; };
+		045864422244CAE3002D8F1B /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045864402244CAE3002D8F1B /* MyViewController.xib */; };
+		045864452244CB5D002D8F1B /* DSYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864442244CB5D002D8F1B /* DSYTabBar.m */; };
+		045864492244D325002D8F1B /* PlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864472244D325002D8F1B /* PlusViewController.m */; };
+		0458644A2244D325002D8F1B /* PlusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045864482244D325002D8F1B /* PlusViewController.xib */; };
+		0458649B224880C9002D8F1B /* MCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04586497224880C9002D8F1B /* MCTabBarController.m */; };
+		0458649C224880C9002D8F1B /* MCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04586498224880C9002D8F1B /* MCTabBar.m */; };
+		045864A22248810B002D8F1B /* DSYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864A02248810B002D8F1B /* DSYViewController.m */; };
+		045864A32248810B002D8F1B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045864A12248810B002D8F1B /* BaseNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045864182244BC5E002D8F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045863F72244BC5D002D8F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045863FE2244BC5D002D8F1B;
+			remoteInfo = DSYTabbar;
+		};
+		045864232244BC5E002D8F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045863F72244BC5D002D8F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045863FE2244BC5D002D8F1B;
+			remoteInfo = DSYTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045863FF2244BC5D002D8F1B /* DSYTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSYTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045864022244BC5D002D8F1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045864032244BC5D002D8F1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045864092244BC5D002D8F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0458640B2244BC5E002D8F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0458640E2244BC5E002D8F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045864102244BC5E002D8F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045864112244BC5E002D8F1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045864172244BC5E002D8F1B /* DSYTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSYTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0458641B2244BC5E002D8F1B /* DSYTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSYTabbarTests.m; sourceTree = "<group>"; };
+		0458641D2244BC5E002D8F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045864222244BC5E002D8F1B /* DSYTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSYTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045864262244BC5E002D8F1B /* DSYTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSYTabbarUITests.m; sourceTree = "<group>"; };
+		045864282244BC5E002D8F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045864342244C876002D8F1B /* DSYTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSYTabBarController.h; sourceTree = "<group>"; };
+		045864352244C876002D8F1B /* DSYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSYTabBarController.m; sourceTree = "<group>"; };
+		045864372244CA97002D8F1B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		045864382244CA97002D8F1B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		045864392244CA97002D8F1B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0458643E2244CAE3002D8F1B /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		0458643F2244CAE3002D8F1B /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		045864402244CAE3002D8F1B /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		045864432244CB5D002D8F1B /* DSYTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSYTabBar.h; sourceTree = "<group>"; };
+		045864442244CB5D002D8F1B /* DSYTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSYTabBar.m; sourceTree = "<group>"; };
+		045864462244D325002D8F1B /* PlusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusViewController.h; sourceTree = "<group>"; };
+		045864472244D325002D8F1B /* PlusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlusViewController.m; sourceTree = "<group>"; };
+		045864482244D325002D8F1B /* PlusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlusViewController.xib; sourceTree = "<group>"; };
+		04586497224880C9002D8F1B /* MCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabBarController.m; sourceTree = "<group>"; };
+		04586498224880C9002D8F1B /* MCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabBar.m; sourceTree = "<group>"; };
+		04586499224880C9002D8F1B /* MCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabBarController.h; sourceTree = "<group>"; };
+		0458649A224880C9002D8F1B /* MCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabBar.h; sourceTree = "<group>"; };
+		0458649E2248810B002D8F1B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		0458649F2248810B002D8F1B /* DSYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSYViewController.h; sourceTree = "<group>"; };
+		045864A02248810B002D8F1B /* DSYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSYViewController.m; sourceTree = "<group>"; };
+		045864A12248810B002D8F1B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045863FC2244BC5D002D8F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045864142244BC5E002D8F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458641F2244BC5E002D8F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045863F62244BC5D002D8F1B = {
+			isa = PBXGroup;
+			children = (
+				045864012244BC5D002D8F1B /* DSYTabbar */,
+				0458641A2244BC5E002D8F1B /* DSYTabbarTests */,
+				045864252244BC5E002D8F1B /* DSYTabbarUITests */,
+				045864002244BC5D002D8F1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045864002244BC5D002D8F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045863FF2244BC5D002D8F1B /* DSYTabbar.app */,
+				045864172244BC5E002D8F1B /* DSYTabbarTests.xctest */,
+				045864222244BC5E002D8F1B /* DSYTabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045864012244BC5D002D8F1B /* DSYTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0458643D2244CAB6002D8F1B /* 控制器 */,
+				0458649D224880D3002D8F1B /* DSYTabBarController */,
+				04586496224880C9002D8F1B /* MCTabBarController */,
+				045864022244BC5D002D8F1B /* AppDelegate.h */,
+				045864032244BC5D002D8F1B /* AppDelegate.m */,
+				0458649E2248810B002D8F1B /* BaseNavigationController.h */,
+				045864A12248810B002D8F1B /* BaseNavigationController.m */,
+				0458649F2248810B002D8F1B /* DSYViewController.h */,
+				045864A02248810B002D8F1B /* DSYViewController.m */,
+				045864082244BC5D002D8F1B /* Main.storyboard */,
+				0458640B2244BC5E002D8F1B /* Assets.xcassets */,
+				0458640D2244BC5E002D8F1B /* LaunchScreen.storyboard */,
+				045864102244BC5E002D8F1B /* Info.plist */,
+				045864112244BC5E002D8F1B /* main.m */,
+			);
+			path = DSYTabbar;
+			sourceTree = "<group>";
+		};
+		0458641A2244BC5E002D8F1B /* DSYTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				0458641B2244BC5E002D8F1B /* DSYTabbarTests.m */,
+				0458641D2244BC5E002D8F1B /* Info.plist */,
+			);
+			path = DSYTabbarTests;
+			sourceTree = "<group>";
+		};
+		045864252244BC5E002D8F1B /* DSYTabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				045864262244BC5E002D8F1B /* DSYTabbarUITests.m */,
+				045864282244BC5E002D8F1B /* Info.plist */,
+			);
+			path = DSYTabbarUITests;
+			sourceTree = "<group>";
+		};
+		0458643D2244CAB6002D8F1B /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				045864372244CA97002D8F1B /* HomeViewController.h */,
+				045864382244CA97002D8F1B /* HomeViewController.m */,
+				045864392244CA97002D8F1B /* HomeViewController.xib */,
+				0458643E2244CAE3002D8F1B /* MyViewController.h */,
+				0458643F2244CAE3002D8F1B /* MyViewController.m */,
+				045864402244CAE3002D8F1B /* MyViewController.xib */,
+				045864462244D325002D8F1B /* PlusViewController.h */,
+				045864472244D325002D8F1B /* PlusViewController.m */,
+				045864482244D325002D8F1B /* PlusViewController.xib */,
+			);
+			path = "控制器";
+			sourceTree = "<group>";
+		};
+		04586496224880C9002D8F1B /* MCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				04586497224880C9002D8F1B /* MCTabBarController.m */,
+				04586498224880C9002D8F1B /* MCTabBar.m */,
+				04586499224880C9002D8F1B /* MCTabBarController.h */,
+				0458649A224880C9002D8F1B /* MCTabBar.h */,
+			);
+			path = MCTabBarController;
+			sourceTree = "<group>";
+		};
+		0458649D224880D3002D8F1B /* DSYTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				045864342244C876002D8F1B /* DSYTabBarController.h */,
+				045864352244C876002D8F1B /* DSYTabBarController.m */,
+				045864432244CB5D002D8F1B /* DSYTabBar.h */,
+				045864442244CB5D002D8F1B /* DSYTabBar.m */,
+			);
+			path = DSYTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045863FE2244BC5D002D8F1B /* DSYTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0458642B2244BC5E002D8F1B /* Build configuration list for PBXNativeTarget "DSYTabbar" */;
+			buildPhases = (
+				045863FB2244BC5D002D8F1B /* Sources */,
+				045863FC2244BC5D002D8F1B /* Frameworks */,
+				045863FD2244BC5D002D8F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSYTabbar;
+			productName = DSYTabbar;
+			productReference = 045863FF2244BC5D002D8F1B /* DSYTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045864162244BC5E002D8F1B /* DSYTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0458642E2244BC5E002D8F1B /* Build configuration list for PBXNativeTarget "DSYTabbarTests" */;
+			buildPhases = (
+				045864132244BC5E002D8F1B /* Sources */,
+				045864142244BC5E002D8F1B /* Frameworks */,
+				045864152244BC5E002D8F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045864192244BC5E002D8F1B /* PBXTargetDependency */,
+			);
+			name = DSYTabbarTests;
+			productName = DSYTabbarTests;
+			productReference = 045864172244BC5E002D8F1B /* DSYTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045864212244BC5E002D8F1B /* DSYTabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045864312244BC5E002D8F1B /* Build configuration list for PBXNativeTarget "DSYTabbarUITests" */;
+			buildPhases = (
+				0458641E2244BC5E002D8F1B /* Sources */,
+				0458641F2244BC5E002D8F1B /* Frameworks */,
+				045864202244BC5E002D8F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045864242244BC5E002D8F1B /* PBXTargetDependency */,
+			);
+			name = DSYTabbarUITests;
+			productName = DSYTabbarUITests;
+			productReference = 045864222244BC5E002D8F1B /* DSYTabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045863F72244BC5D002D8F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "邓石阳";
+				TargetAttributes = {
+					045863FE2244BC5D002D8F1B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					045864162244BC5E002D8F1B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 045863FE2244BC5D002D8F1B;
+					};
+					045864212244BC5E002D8F1B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 045863FE2244BC5D002D8F1B;
+					};
+				};
+			};
+			buildConfigurationList = 045863FA2244BC5D002D8F1B /* Build configuration list for PBXProject "DSYTabbar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045863F62244BC5D002D8F1B;
+			productRefGroup = 045864002244BC5D002D8F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045863FE2244BC5D002D8F1B /* DSYTabbar */,
+				045864162244BC5E002D8F1B /* DSYTabbarTests */,
+				045864212244BC5E002D8F1B /* DSYTabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045863FD2244BC5D002D8F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458640F2244BC5E002D8F1B /* LaunchScreen.storyboard in Resources */,
+				0458640C2244BC5E002D8F1B /* Assets.xcassets in Resources */,
+				0458644A2244D325002D8F1B /* PlusViewController.xib in Resources */,
+				0458640A2244BC5D002D8F1B /* Main.storyboard in Resources */,
+				0458643B2244CA97002D8F1B /* HomeViewController.xib in Resources */,
+				045864422244CAE3002D8F1B /* MyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045864152244BC5E002D8F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045864202244BC5E002D8F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045863FB2244BC5D002D8F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045864362244C876002D8F1B /* DSYTabBarController.m in Sources */,
+				045864A32248810B002D8F1B /* BaseNavigationController.m in Sources */,
+				045864492244D325002D8F1B /* PlusViewController.m in Sources */,
+				045864122244BC5E002D8F1B /* main.m in Sources */,
+				0458649C224880C9002D8F1B /* MCTabBar.m in Sources */,
+				045864042244BC5D002D8F1B /* AppDelegate.m in Sources */,
+				0458643A2244CA97002D8F1B /* HomeViewController.m in Sources */,
+				045864452244CB5D002D8F1B /* DSYTabBar.m in Sources */,
+				045864A22248810B002D8F1B /* DSYViewController.m in Sources */,
+				045864412244CAE3002D8F1B /* MyViewController.m in Sources */,
+				0458649B224880C9002D8F1B /* MCTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045864132244BC5E002D8F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458641C2244BC5E002D8F1B /* DSYTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458641E2244BC5E002D8F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045864272244BC5E002D8F1B /* DSYTabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045864192244BC5E002D8F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045863FE2244BC5D002D8F1B /* DSYTabbar */;
+			targetProxy = 045864182244BC5E002D8F1B /* PBXContainerItemProxy */;
+		};
+		045864242244BC5E002D8F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045863FE2244BC5D002D8F1B /* DSYTabbar */;
+			targetProxy = 045864232244BC5E002D8F1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045864082244BC5D002D8F1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045864092244BC5D002D8F1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0458640D2244BC5E002D8F1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0458640E2244BC5E002D8F1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045864292244BC5E002D8F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0458642A2244BC5E002D8F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0458642C2244BC5E002D8F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJE76JWSN;
+				INFOPLIST_FILE = DSYTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylink.www.DSYTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0458642D2244BC5E002D8F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJE76JWSN;
+				INFOPLIST_FILE = DSYTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylink.www.DSYTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0458642F2244BC5E002D8F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJE76JWSN;
+				INFOPLIST_FILE = DSYTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylink.www.DSYTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSYTabbar.app/DSYTabbar";
+			};
+			name = Debug;
+		};
+		045864302244BC5E002D8F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJE76JWSN;
+				INFOPLIST_FILE = DSYTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylink.www.DSYTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSYTabbar.app/DSYTabbar";
+			};
+			name = Release;
+		};
+		045864322244BC5E002D8F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJE76JWSN;
+				INFOPLIST_FILE = DSYTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylink.www.DSYTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DSYTabbar;
+			};
+			name = Debug;
+		};
+		045864332244BC5E002D8F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HJE76JWSN;
+				INFOPLIST_FILE = DSYTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylink.www.DSYTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DSYTabbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045863FA2244BC5D002D8F1B /* Build configuration list for PBXProject "DSYTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045864292244BC5E002D8F1B /* Debug */,
+				0458642A2244BC5E002D8F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0458642B2244BC5E002D8F1B /* Build configuration list for PBXNativeTarget "DSYTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458642C2244BC5E002D8F1B /* Debug */,
+				0458642D2244BC5E002D8F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0458642E2244BC5E002D8F1B /* Build configuration list for PBXNativeTarget "DSYTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458642F2244BC5E002D8F1B /* Debug */,
+				045864302244BC5E002D8F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045864312244BC5E002D8F1B /* Build configuration list for PBXNativeTarget "DSYTabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045864322244BC5E002D8F1B /* Debug */,
+				045864332244BC5E002D8F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045863F72244BC5D002D8F1B /* Project object */;
+}
