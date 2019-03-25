@@ -1,0 +1,2 @@
+# DSYTabBar
+加载网页时将webview的title设置成navigationbar的title,并且tabbar上的title不变
